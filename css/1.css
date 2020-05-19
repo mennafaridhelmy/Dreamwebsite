@@ -1,0 +1,365 @@
+body{
+    background-color: white;
+}
+/*/////////////////////////----header----///////////////////////*/
+
+#header{
+    text-align: center;
+}
+
+#header a{
+    color: white;
+}
+
+#header a:hover{
+    color: black;
+    background-color: white;
+}
+
+#headerhide p, #headerhide i{
+    padding:2% 1% 1% 1%;
+    color: white;
+}
+
+/*//////////////////////////----navbar----///////////////////////*/
+
+#nav{
+    background-color:white;
+    padding: 15px 5px 23px 5px;
+    font-size: 11px;
+    font-weight: 700;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+#nav a:hover{
+    color:orange ;
+    background-color: white;
+}
+
+#nav a{
+    color: black;
+    background-color: white;
+}
+
+/*////////////////////-- carousol --//////////////////////*/
+
+#firstcursl{
+    text-align: left;
+    }
+
+#thirdcursl{
+    text-align: right;
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+#carouselimg{
+    width : 100% ; 
+    max-height: 608px;
+    position: relative;
+    top: 0px;
+    z-index: -1;
+    left: 0px;
+    right:0px;
+    margin-top:-25px; 
+}
+
+#progress{
+    background-color:rgb(0,0,0,0.1);
+    height: 5px;
+}
+
+#progressbar {
+    transition-duration: 4s;
+}
+
+/*////////////////////////////-----trophy-----//////////////////////////////*/
+
+.trophy{
+    padding: 2%;
+    background-color:orange;
+    text-align: center;
+    
+}
+
+/*/////////////////////////////----second page---/////////////////////////////*/
+#second > div > i{
+    float:left;
+    margin-bottom:85px;
+    margin-top: 15px;
+    color: orange;
+}
+
+#second > div:hover,#second > div:hover > i{
+    color: white;
+    background-color: orange;
+}
+
+#second {
+    position: relative;
+    top:10px;
+}
+
+/*///////////////////////////---third page ---//////////////////////*/
+#thirdhover{
+    padding: 20px;
+}
+#thirdhover > i {
+    float:left;
+    padding-right: 5px;
+    margin-bottom:85px;
+    margin-top: 15px;
+    color: orange;
+}
+
+#thirdhover >div:hover , #thirdhover > div:hover > i{
+    color: white;
+    background-color: orange;
+}
+
+#percentage > .progress{
+    background-color:rgb(0,0,0,0)
+}
+
+#percentage > .progress-bar {
+    transition-duration: 10s;
+}
+
+#percentage {
+    padding-top:20%; 
+}
+
+/*/////////////////---forth---/////////////////*/
+
+#fourth{
+    background-color: white;
+    padding-top:3%;
+    padding-bottom:5%;  
+}
+
+/*//////////////////------numbers-----///////////////*/
+
+#numbers{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding-top: 730px;
+    padding-bottom: 50px;
+}
+
+
+/*///////////////-----fifth-----///////////////*/
+
+.fifth > div > div{
+    margin-bottom:15px; 
+}
+
+.fifth > div > div:hover .hoveringdiv {
+    display: block;
+    transition: all 1s ease;
+}
+
+.fifth > div > div .hoveringdiv {
+    position: absolute;
+    top:0px;
+    display: none;
+    transition: all 1s ease;
+    font-size: 20px;
+    width: 350px;
+    height: 233px;
+    color: white;
+    background-color:#ffa600a4;
+    text-align: center;  
+  
+}
+
+.hoveringdiv > span {
+    margin: 5px;
+    transition: all 1s ease;
+    padding: 15px;
+    border-radius:50%;
+    border: white 1px solid;  
+}
+
+.hoveringdiv > span:hover {
+background-color: white;
+color: green;
+}
+
+
+/*////////////////----cover photo-----/////////////////*/
+
+#coverphoto{
+    background-image: url("../imgs/desk.jpeg");
+    background-attachment: fixed;
+    height: 350px;
+    padding: 0%;
+}
+
+#cphdiv{
+    padding: 100px;
+    text-align: center;
+    background-color:#33333369;
+    text-align: center;
+    color:white;
+    height: 350px;
+}
+
+/*////////////////////------page six -----/////////////////////*/
+
+#six > div > div:hover .hovering {
+    display: block;
+    transition: all 1s ease;
+}
+
+
+.hovering {
+    position: absolute;
+    top:0px;
+    display: none;
+    transition: all 1s ease;
+    font-size: 20px;
+    width: 338px;
+    height: 506px;
+    color: white;
+    background-color:#f6d0145c;
+    text-align: center;  
+
+}
+
+.hovering > ul > li > a{
+    color: white;
+}
+
+.hovering > ul {
+    position: absolute ;
+    bottom:10px;
+    left: 125px;
+}
+
+.hovering > ul > li {
+    display: inline;
+}
+
+#six > p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+.hovering > ul > li > a > i {
+    padding: 10px;
+}
+
+#six{
+    margin-bottom : 30px;
+}
+
+
+/*//////////////////-------page seven--------////////////////////*/
+.form {
+    padding: 50px;
+    background-color:#e5e5e5;
+    font-weight: 50px;
+    font-size: 20px;
+    
+}
+
+.seven input , .seven select {
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.seven textarea {
+    margin-bottom: 20px;
+}
+
+
+/*/////////////////////---second coursal---///////////////////*/
+
+.secondcarousel{
+    border: #ffa500 5px solid;
+    background-image:url("../imgs/2ndcivil.jpeg");
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondcarousel .color-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+}
+.secondcarousel h1{
+    margin: 0px;
+}
+
+.secondcarousel ol{
+    position: relative;
+    top:10px;
+}
+
+.secondcarousel ol .active {
+    background-image: url("../imgs/cprofile.jpeg");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    border: #ffa500 3px solid; 
+}
+
+.secondcarousel li{
+    background-image: url("../imgs/cprofile.jpeg");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    border: white 1px solid; 
+}
+
+.secondcarousel .item{
+padding: 40px;
+}
+
+.secondcarousel p{
+    padding: 40px 180px 20px 180px;
+    
+}
+
+.secondcarousel footer{
+    color: white;
+}
+
+.secondcarousel blockquote {
+    border-left: none;
+}
+
+/*////////////////////////-----footer-----//////////////////////////*/
+
+.last {
+    padding: 50px;
+    background-color: black;
+    margin: 0%;
+    color:white;
+    height: 500px;
+}
+ 
+.last a{
+    padding: 0px 10px 0px 10px;
+    color: white;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
